@@ -4,6 +4,8 @@
 html {
     box-sizing: border-box;
     font-size: 16px;
+    background-color: aqua;
+    color:purple;
   }
   
   *, *:before, *:after {
