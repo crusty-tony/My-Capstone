@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Crusty Hotel</title>
+</head>
+<style>
+    h1 {
+      text-align: center;
+    }
+    h2 {
+      text-align: center;
+    }
+    h3{
+      text-align: center;
+    }
+    blockquote {
+      text-align: center;
+    }
+    .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+  html{
+    background-color: aquamarine;
+    color: brown;
+  }
+</style>
+<body>
+    <h1>The Crusty Hotel</h1>
+    <!--The Crusty Hotel entrance-->
+    <img src="crusty hotel image.jpg" alt="Crusty Hotel Image" class="center">
+    <h2>Welcome To The Crusty Hotel - Where Comfort Is Optional</h2> 
+    <h3>Address: 987 6th St 54321</h3>
+    <h3>Phone Number: 911-9119-1991</h3>
+    <blockquote>At <em>The Crusty Hotel</em>, we offer a <b>one-of-a-kind</b> stay with <b>beautiful decorations, cozy rooms,</b>
+        and a <strong>complimentary breakfast</strong> that will surely fill you up. Be sure to make a reservation here at <i>The Crusty Hotel</i> 
+        and fill out the information below. Be sure to share your experience and leave a good review. Thank you!
+    </blockquote>
+    <form action="final_artifact2.html">
+    <br>
+    <h3>Reserve a room at The Crusty Hotel Here:</h3>
+    <p><label for="bookDate">What date would you like to book it at?</label></p>
+    <input type="date" name="Date" id="bookDate">
+    <br>
+    <p><label for="guests">How many guests will be present?</label></p>
+    <select name="NumGuest" id="guests">
+        <option value="1g">1</option>
+        <option value="2g">2</option>
+        <option value="3g">3</option>
+        <option value="4g">4</option>
+    </select>
+    <br>
+    <p>What temperature do you want the water to only be?</p>
+      <label for="option1">Boiling Hot</label>
+      <input type="radio" name="temp" value="hot" id="option1">
+      <label for="option2">Freezing Cold</label>
+      <input type="radio" name="temp" value="cold" id="option2">
+      <label for="option3">i dont need water</label>
+      <input type="radio" name="temp" value="none" id="option3">
+      <br>
+      <p>What special amenities do you want?</p>
+      <label for="select1">Air Conditioning (sometimes works)</label>
+      <input type="radio" name="amentity" value="airCon" id="select1">
+      <label for="select2">WiFi (5mbps speed)</label>
+      <input type="radio" name="amentity" value="wifi" id="select2">
+      <label for="select3">Free Breakfast (raw cup noodles)</label> 
+      <input type="radio" name="amentity" value="breakfast" id="select3">
+      <br>
+    <p><label for="anything">Anything else you would like us to know?</label></p>
+    <input type="text" name="response" id="anything" placeholder="type here">
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>
